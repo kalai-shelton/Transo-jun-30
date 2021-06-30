@@ -131,9 +131,9 @@ a.active {
   width: 100%;
   height: 200px;
   text-align:justify;
-  @include mobile {
+  @include desktop {
     padding: 0;
-    margin: 0;
+    margin-bottom: 10;
     height: auto;
     width: auto;
   }
@@ -156,7 +156,6 @@ a.active {
 }
 .threeplcasestudyP {
   text-align: justify;
- 
   @include tablet{
     padding-left: 30px;
   }
@@ -164,7 +163,7 @@ a.active {
 .threepl-content {
   padding: 20px;
   align-self: center;
-  @include mobile {
+  @include tablet {
     align-self:flex-end;
   }
 }
