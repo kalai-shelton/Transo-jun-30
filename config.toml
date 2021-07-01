@@ -1,5 +1,5 @@
 baseURL       = "https://jolly-poitras-28bb31.netlify.app/"
-#relativeURLs = "true"
+relativeURLs = "true"
 #canonifyURLs =  "true"
 #uglyURLs     = "true"
 languageCode  = "en-us"
